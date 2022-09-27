@@ -1,0 +1,12 @@
+.button-Page {
+    background-color: var(--main-color);
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    height: 4rem;
+    max-width: 22.5rem;
+    min-width: 16rem;
+}
+  

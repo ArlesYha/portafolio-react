@@ -1,0 +1,52 @@
+.contact-Card__Content {
+    box-sizing: border-box;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px 1px rgba(133, 133, 133, 0.563);
+    flex-basis: calc(50% - 1rem);
+}
+
+.contact__Icon,
+.contact__Title-Card,
+.contact__Text-Card {
+    text-align: center;
+}
+
+.contact__Icon {
+    color: var(--main-color);
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .contact-Card__Content {
+        padding: .8rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact-Card__Content {
+        flex-basis: 100%;
+    }
+ 
+    .contact__Text-Card>p {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contact__Text-Card>p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 832px) {
+    .contact-Card__Content:nth-child(3) .contact__Text-Card>p{
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .contact__Text-Card>p {
+        font-size: .7em;
+    }
+}

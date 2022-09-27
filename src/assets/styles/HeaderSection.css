@@ -1,0 +1,41 @@
+.header__Section {
+    height: 5rem;
+    position: relative;
+    max-width: 22rem;
+    margin: 0 auto;
+}
+
+.header__Section::before {
+    background-color: var(--main-color);
+    content: '';
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header__Section::after {
+    background-color: var(--main-color);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.header__Section>h2 {
+    line-height: 5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .header__Section {
+        width: 18rem;
+    }
+}

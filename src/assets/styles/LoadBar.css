@@ -1,0 +1,66 @@
+.load__Bar {
+    transition: all 1.5s ease;
+    width: 100%;
+}
+
+.load__text {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.bar {
+    background-color: rgba(141, 141, 141, 0.768);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 2rem;
+    line-height: 2rem;
+    position: relative;
+    width: 100%;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.bar--90::before {
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    content: '90%';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 90%;
+}
+
+.bar--70::before {
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    content: '70%';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70%;
+}
+
+.bar--60::before {
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    content: '60%';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 60%;
+}
+
+.bar--50::before {
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    content: '50%';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
