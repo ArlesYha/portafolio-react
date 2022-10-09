@@ -4,7 +4,9 @@ import ContainerMain from './components/main';
 
 function App() {
   return (
+    <>
     <ContainerMain/>
+    </>
   );
 }
 
