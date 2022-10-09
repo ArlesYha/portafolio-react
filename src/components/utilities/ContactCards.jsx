@@ -12,7 +12,7 @@ export const ContactCard = ({icon, title, text, iconMedia}) => {
             </div>
             <div className='contact__Text-Card'>
                 {text && <p>{text}</p>}
-                {iconMedia && <a href='https://wa.me/51960232657' target={"_blank"}><i className={iconMedia}></i></a>}
+                {iconMedia && <a href='https://wa.me/51960232657' target="_blank" rel='noreferrer'><i className={iconMedia}></i></a>}
             </div>
         </div>
     )
