@@ -14,7 +14,7 @@ export const Contact = () => {
                     <ContactCard icon={'fas fa-home'} title='Dirección' text='Perú, Ica - Chincha'></ContactCard>
                     <ContactCard icon={'fas fa-phone'}  title='Teléfono' text='+51960232657'></ContactCard>
                     <ContactCard icon={'fas fa-envelope'}  title='Email' text='arlesyhazelada98@gmail.com'></ContactCard>
-                    <ContactCard icon={'fas fa-hashtag'}  title='Redes Sociales' text='Facebook, Whatsapp'></ContactCard>
+                    <ContactCard icon={'fas fa-hashtag'}  title='Redes Sociales' iconMedia='fa-brands fa-whatsapp'></ContactCard>
                 </div>
                 <div className='contact__Items contact__Items--Form'>
                     <form className='contact__Form' method="POST" action="https://formsubmit.co/872530d3437ed1a2124907e620ae2545" encType="multipart/form-data">
